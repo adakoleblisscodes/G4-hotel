@@ -65,14 +65,15 @@ include "footer/nav.php";
 
            <!-- Room Type -->
            <div class="mb-3">
-             <label for="room_type" class="form-label">Select Room Type</label>
-             <select name="room_type" id="room_type" class="form-select" required>
-               <option value="">-- Choose Room --</option>
-               <option value="Classic">Classic</option>
-               <option value="Standard">Standard</option>
-               <option value="Premium">Premium</option>
-             </select>
-           </div>
+        <label for="room_type" class="form-label">Select Room Type</label>
+        <select name="room_type" id="room_type" class="form-select" required>
+          <option value="" selected disabled>-- Choose Room --</option>
+          <option value="Classic">Classic</option>
+          <option value="Standard">Standard</option>
+          <option value="Premium">Premium</option>
+        </select>
+      </div>
+            <button type="submit" name="check_price" class="btn btn-primary w-100">Check Price</button>
 
            <!-- Check-in / Check-out -->
             <div class="row mb-3">
@@ -96,21 +97,21 @@ include "footer/nav.php";
           <div class="mb-3">
             <label class="form-label">Additional Services</label>
             <div class="form-check">
-              <input class="form-check-input" type="checkbox" name="services[]" value="Breakfast" id="service1">
+              <input class="form-check-input" type="checkbox" name="services1" value="Breakfast" id="service1">
               <label class="form-check-label" for="service1">Breakfast</label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="checkbox" name="services[]" value="Airport Pickup" id="service2">
+              <input class="form-check-input" type="checkbox" name="services2" value="Airport Pickup" id="service2">
               <label class="form-check-label" for="service2">Airport Pickup</label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="checkbox" name="services[]" value="Spa" id="service3">
+              <input class="form-check-input" type="checkbox" name="services3" value="Spa" id="service3">
               <label class="form-check-label" for="service3">Spa</label>
             </div>
           </div>
 
           <!-- Submit Button -->
-          <button type="submit" class="btn btn-primary w-100">Confirm Booking</button>
+          <button type="submit" class="btn btn-primary w-100" name="submit_booking">Confirm Booking</button>
 
         </form>
       </div>
