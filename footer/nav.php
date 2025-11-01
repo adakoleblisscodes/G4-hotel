@@ -37,8 +37,9 @@
       color: #fff;
     }
     #gg{
-        text-shadow: 3px 3px 5px gray;
-        font-size: 50px;
+      text-shadow: 3px 3px 5px gray;
+      font-size: 50px;
+      color:  darkgoldenrod;
         
 
     }
@@ -48,9 +49,14 @@
 <body>
 
 <!-- Navbar Start -->
+
+
 <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
   <div class="container">
-    <a class="navbar-brand text-primary" href="index.php" id="gg">G4 HOTEL</a>
+    <a class="navbar-brand" href="index.php">
+  <img src="assets/images/G.jpg" alt="GA Hotel Logo" height="50" class="d-inline-block align-text-top">
+</a>  
+    <a class="navbar-brand"  href="index.php" id="gg">G4 HOTEL</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
             data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
             aria-label="Toggle navigation">
@@ -87,7 +93,16 @@
 <!-- Navbar End -->
 
 <!-- Bootstrap 5 JS -->
+ <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap JS Bundle (includes Popper for dropdowns) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+  
+
+</script>
 
 </body>
 </html>

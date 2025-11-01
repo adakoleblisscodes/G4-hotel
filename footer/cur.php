@@ -70,6 +70,12 @@
         font-size: 1rem;
       }
     }
+    #myH2{
+        text-shadow: 2px 2px 4px gray;
+    }
+    #myR{
+        text-shadow: 2px 2px 4px gray;
+    }
   </style>
 </head>
 <body>
@@ -95,7 +101,7 @@
       </div>
     </div>
 
-    <div class="carousel-item" style="background-image: url('https://picsum.photos/id/1022/1920/1080');">
+    <div class="carousel-item" style="background-image: url('assets/images/BAR/bar.jpg');">
       <div class="carousel-caption text-end">
         <h1>Unforgettable Moments</h1>
         <p>Perfect ambiance for vacations and events.</p>
@@ -128,7 +134,7 @@
   <div class="container">
     <!-- Section Title -->
     <div class="text-center mb-5">
-      <h2 class="fw-bold">Welcome to GA Hotel</h2>
+      <h2 class="fw-bold" id="myH2">Welcome to GA Hotel</h2>
       <p class="text-muted">Experience comfort, luxury, and unforgettable moments</p>
     </div>
 
@@ -137,7 +143,7 @@
   <div class="container">
     <!-- Section Title -->
     <div class="text-center mb-5">
-      <h2 class="fw-bold">Our Rooms</h2>
+      <h2 class="fw-bold" id="myR">Our Rooms</h2>
       <p class="text-muted">Choose the perfect room for your stay</p>
     </div>
 
@@ -183,12 +189,9 @@
     </div>
   </div>
 </section>
-
-<!-- Bootstrap CSS & JS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-
+ <section>
+  <div>
+    <div>
       <!-- Conference Hall -->
       <div class="col-md-6 col-lg-4" height="100px">
         <div class="card h-100 shadow-sm border-0">
@@ -225,7 +228,7 @@
       <!-- Swimming Pool -->
       <div class="col-md-6 col-lg-4">
         <div class="card h-100 shadow-sm border-0">
-          <img src="assets/image/pool.jpg" class="card-img-top" alt="Swimming Pool">
+          <img src="assets/images/SWIMMING/swin.jpg" class="card-img-top" alt="Swimming Pool">
           <div class="card-body text-center">
             <h5 class="card-title fw-bold">Swimming Pool</h5>
             <p class="card-text">Relax and unwind in our clean and spacious pool area.</p>
@@ -243,17 +246,11 @@
           </div>
         </div>
       </div>
-    </div>
+   </div>  
   </div>
 </section>
 
-<!-- Bootstrap CSS & JS (Make sure these are included in your page) -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
-</script>
 
-
-<!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
