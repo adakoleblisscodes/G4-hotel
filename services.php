@@ -1,6 +1,12 @@
 <?php
-$pdo = new PDO("mysql:host=localhost;dbname=hotel_db", "root", "");
-$services = $pdo->query("SELECT * FROM services")->fetchAll(PDO::FETCH_ASSOC);
+include "header/nav.php";
+
+require "config/db.php";    
+// Fetch all services
+$sql = "SELECT * FROM services";
+$stmt = $pdo->prepare($sql);
+$stmt->execute();
+$services = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
 <!DOCTYPE html>
@@ -18,9 +24,9 @@ $services = $pdo->query("SELECT * FROM services")->fetchAll(PDO::FETCH_ASSOC);
     <?php foreach ($services as $service): ?>
       <div class="col-md-4 mb-4">
         <div class="card shadow-sm">
-          <img src="uploads/<?= htmlspecialchars($service['featured_image']) ?>" class="card-img-top" alt="Service Image">
+          <img src="uploads/<?= htmlspecialchars($service['featured_image']) ?>" class="card-img-top" alt="<?= htmlspecialchars($service['name']) ?>">
           <div class="card-body">
-            <h5 class="card-title"><?= htmlspecialchars($service['roomname']) ?></h5>
+            <h5 class="card-title"><?= htmlspecialchars($service['name']) ?></h5>
             <p class="card-text"><?= substr(htmlspecialchars($service['description']), 0, 100) ?>...</p>
             <a href="service.php?id=<?= $service['id'] ?>" class="btn btn-primary btn-sm">View Details</a>
           </div>

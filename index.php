@@ -1,7 +1,8 @@
 <?php
 session_start();
-include "footer/nav.php";
-include "footer/cur.php";   
+include "header/nav.php";
+include "header/cur.php"; 
+require "config/db.php";  
 ?>
 <!DOCTYPE html>
 <html lang="en">

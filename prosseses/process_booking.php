@@ -1,7 +1,7 @@
 <?php
-session_start();
+
 require "config/db-connet.php";
-include "footer/nav.php";
+
 if (isset($_POST['check_price'])) {
       $room_type = $_POST['room_type'];
 

@@ -1,6 +1,14 @@
 <?php
-session_start();
-include "footer/nav.php";
+
+include "header/nav.php";
+require "config/db.php";    
+// Fetch all service
+$sql = "SELECT * FROM services WHERE id = ?";
+$stmt = $pdo->prepare($sql);
+$stmt->execute([$_GET['id']]);
+$service = $stmt->fetch(PDO::FETCH_ASSOC);
+
+
   
 ?>
 <!DOCTYPE html>

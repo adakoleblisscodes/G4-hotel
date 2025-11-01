@@ -1,6 +1,11 @@
 <?php
 session_start();
-include "footer/nav.php";
+include "header/nav.php";
+
+require "prosseses/process_booking.php";
+require "config/db.php";  
+
+
   
 ?>
 <!DOCTYPE html>

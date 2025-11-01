@@ -1,6 +1,7 @@
 <?php
 session_start();
-include "footer/nav.php";
+include "haeder/nav.php";
+require "config/db.php";  
   
 ?>
 <!DOCTYPE html>
