@@ -6,7 +6,7 @@
   <title>G4 HOTEL</title>
   <!-- Bootstrap 5 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="../assets/bootstrap/bootstrap.css">
+  <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.css">
 
 
   <style>

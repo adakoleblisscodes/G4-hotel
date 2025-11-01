@@ -8,7 +8,7 @@
 
   <!-- Bootstrap 5 CSS -->
   
-  <link rel="stylesheet" href="../assets/bootstrap/bootstrap.css"> 
+  <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.css"> 
 
   <style>
     /* Carousel full height for hero look */

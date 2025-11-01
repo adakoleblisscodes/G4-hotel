@@ -29,6 +29,7 @@ include "footer/nav.php";
  <!-- Booking Form Section -->
    <div class="container">
      <div class="text-center mb-5">
+        
         <section class="py-5" style="
           background-image: url('assets/images/RECEPTIONIST (2).jpg');
           background-size: cover;
@@ -59,7 +60,7 @@ include "footer/nav.php";
             <!-- Phone -->
             <div class="mb-3">
               <label for="phone" class="form-label">Phone Number</label>
-              <input type="tel" name="phone" id="phone" class="form-control" placeholder="e.g., +2347012345678" required>
+              <input type="tel" name="phone" id="phone" class="form-control" placeholder="+2347012345678" required>
            </div>
 
            <!-- Room Type -->

@@ -12,8 +12,9 @@ include "footer/nav.php";
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us | GA Hotel</title>
+  <title>About Us | G4 Hotel</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
   <style>
     .about-section {
       background-color: white; /* background color in words: white */
@@ -45,12 +46,12 @@ include "footer/nav.php";
       
       <!-- Left: Image -->
       <div class="col-md-6 mb-4 mb-md-0">
-        <img src="assets/images/G.jpg" alt="GA Hotel" class="about-image">
+        <img src="assets/images/G.jpg" alt="G4 Hotel" class="about-image">
       </div>
 
       <!-- Right: Text -->
       <div class="col-md-6">
-        <h2 class="fw-bold mb-3" id="Me" style="color: dark blue;">About GA Hotel</h2>
+        <h2 class="fw-bold mb-3" id="Me" style="color: dark blue;">About G4 Hotel</h2>
         <p style="color: black;">
           Established in 2010, <strong>GA Hotel</strong> began as a modest guesthouse dedicated to offering travelers
           comfort, warmth, and exceptional service. Over the years, it has grown into one of the most respected
@@ -70,7 +71,7 @@ include "footer/nav.php";
         <div class="mission-box text-center">
           <h3 class="fw-bold mb-3" style="color: dark blue;">Our Mission</h3>
           <p style="color: black;">
-            At <strong>GA Hotel</strong>, our mission is to deliver exceptional hospitality experiences that make every guest feel valued and at home.
+            At <strong>G4 Hotel</strong>, our mission is to deliver exceptional hospitality experiences that make every guest feel valued and at home.
             We strive to create an environment where comfort meets sophistication-offering premium accommodations,
             fine dining, and modern amenities that reflect our passion for excellence.
           </p>
