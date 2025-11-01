@@ -189,13 +189,14 @@
     </div>
   </div>
 </section>
- <section>
-  <div>
-    <div>
+ <section class="py-5 bg-light">
+  <div class="container">
+    <div class="row g-4">
+      
       <!-- Conference Hall -->
-      <div class="col-md-6 col-lg-4" height="100px">
+      <div class="col-md-6 col-lg-3">
         <div class="card h-100 shadow-sm border-0">
-          <img src="assets/images/CONFERENCE/coni.jpg" class="card-img-top" alt="Conference Hall" heigth="100px">
+          <img src="assets/images/CONFERENCE/coni.jpg" class="card-img-top" alt="Conference Hall">
           <div class="card-body text-center">
             <h5 class="card-title fw-bold">Conference Hall</h5>
             <p class="card-text">Fully equipped conference and meeting halls for business events.</p>
@@ -204,7 +205,7 @@
       </div>
 
       <!-- Restaurant -->
-      <div class="col-md-6 col-lg-4 ">
+      <div class="col-md-6 col-lg-3">
         <div class="card h-100 shadow-sm border-0">
           <img src="assets/images/RESTUARANT/ff.jpg" class="card-img-top" alt="Restaurant">
           <div class="card-body text-center">
@@ -215,7 +216,7 @@
       </div>
 
       <!-- Gym Facilities -->
-      <div class="col-md-6 col-lg-4">
+      <div class="col-md-6 col-lg-3">
         <div class="card h-100 shadow-sm border-0">
           <img src="assets/images/GYM/gymi.jpg" class="card-img-top" alt="Gym">
           <div class="card-body text-center">
@@ -226,7 +227,7 @@
       </div>
 
       <!-- Swimming Pool -->
-      <div class="col-md-6 col-lg-4">
+      <div class="col-md-6 col-lg-3">
         <div class="card h-100 shadow-sm border-0">
           <img src="assets/images/SWIMMING/swin.jpg" class="card-img-top" alt="Swimming Pool">
           <div class="card-body text-center">
@@ -235,6 +236,10 @@
           </div>
         </div>
       </div>
+
+    </div>
+  </div>
+</section>
 
       <!-- Spa & Wellness -->
       <div class="col-md-6 col-lg-4">

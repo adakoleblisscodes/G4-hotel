@@ -2,12 +2,10 @@
 $host = "localhost";
 $user = "root";
 $password = "";
-$dbname = "g4_hotel";
+$dbname = "hotel";
 
-
-
-
-
+// Create connection
+$pdo = new PDO("mysql:host=$host;dbname=$dbname", $user, $password);
 
 
 
