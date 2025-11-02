@@ -2,8 +2,9 @@
 session_start();
 include "header/nav.php";
 
-require "prosseses/process_booking.php";
-require "config/db.php";  
+
+require "processes/process_booking.php";
+ 
 
 
   

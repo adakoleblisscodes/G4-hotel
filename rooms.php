@@ -1,7 +1,8 @@
 <?php
 
 include "header/nav.php";
-require "config/db.php";
+
+require "config/db-connet.php";
   
 ?>
 <!DOCTYPE html>

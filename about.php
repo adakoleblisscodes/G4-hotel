@@ -2,7 +2,8 @@
 session_start();
 
 include "header/nav.php";
-require "config/db.php";  
+
+require "config/db-connet.php";  
 
 // INSERT INTO rooms(room_name, room_type, price, features, images, door_no) VALUES
 // ("Classic Room", "classic", 20000, "1 Bed, ");

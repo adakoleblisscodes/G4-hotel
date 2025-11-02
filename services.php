@@ -1,7 +1,8 @@
 <?php
 include "header/nav.php";
+include "footer/foot.php";
 
-require "config/db.php";    
+require "config/db-connet.php";    
 // Fetch all services
 $sql = "SELECT * FROM services";
 $stmt = $pdo->prepare($sql);

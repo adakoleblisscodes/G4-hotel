@@ -51,9 +51,9 @@
 <!-- Navbar Start -->
 
 
-<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
   <div class="container">
-    <a class="navbar-brand" href="index.php">
+    <a class="navbar-brand fw-bold text-warning" href="index.php">
   <img src="assets/images/G.jpg" alt="GA Hotel Logo" height="50" class="d-inline-block align-text-top">
 </a>  
     <a class="navbar-brand"  href="index.php" id="gg">G4 HOTEL</a>

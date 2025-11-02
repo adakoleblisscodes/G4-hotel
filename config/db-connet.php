@@ -5,7 +5,7 @@ $password = "";
 $dbname = "hotel";
 
 // Create connection
-$pdo = new PDO("mysql:host=$host;dbname=$dbname", $user, $password);
+$pdo = new PDO("mysql:host=$host; dbname=$dbname", $user, $password);
 
 
 

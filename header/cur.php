@@ -192,7 +192,10 @@
  <section class="py-5 bg-light">
   <div class="container">
     <div class="row g-4">
-      
+      <div class="text-center mb-5">
+      <h2 class="fw-bold" id="myR">Other Rooms</h2>
+      <p class="text-muted">Choose the perfect room for you enjoy and relex</p>
+    </div>
       <!-- Conference Hall -->
       <div class="col-md-6 col-lg-3">
         <div class="card h-100 shadow-sm border-0">
